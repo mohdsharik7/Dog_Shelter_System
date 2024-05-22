@@ -1,0 +1,271 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #a9a9a9;
+}
+
+h1.title{
+	margin-bottom: 5px;
+	color:black;
+	font-family: 'Times New Roman', cursive;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+.btn a{
+	display: block;
+	width: 180px;
+	height: 35px;
+	border: 2px solid #fb2274;
+	line-height: 35px;
+	margin: 25px auto 0;
+	color: #fb2274;
+	text-align: center;
+}
+
+
+
+
+.main_container{
+	position: relative;
+	text-align:centre;
+
+}
+
+.navbar{
+	width: 100%;
+	height: 65px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+}
+
+.logo a{
+	font-family: 'Allura', cursive;
+	font-size: 32px;
+	color:brown;
+}
+
+.navbar .navbar_items ul{
+	display: flex;
+
+	color:yellow;
+}
+
+
+.navbar .navbar_items ul li{
+	text-transform: uppercase;
+	margin: 0 10px;
+	float:left;
+	text-color:grey;
+}
+
+.navbar .navbar_items ul li a{
+	color:black;
+	float:left;
+}
+
+.banner_image{
+background:url("https://thumbs.dreamstime.com/b/golden-retriever-dog-21668976.jpg");
+	background-size:cover;
+	width: 100%;
+	height:700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color:black;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	color:black;
+	content:bottom;
+	line-height: 28px;
+	margin-bottom: 2px;
+}
+
+.banner_content h1 span{
+	color:black
+	content:bottom;
+}
+
+/* About us */
+.about{
+display:absolute;
+margin-bottom:24px;
+}
+.services{
+text-align: center;}
+
+.contactus{
+text-align: center;
+background:url("https://i.pinimg.com/originals/92/17/4a/92174ad3758fdb8f9c2e4579ad5430a0.jpg");
+
+}
+
+.diff_services{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.diff_service_item{
+	width: 30%;
+}
+
+.diff_service_item img{
+	width: 100%;
+	margin-bottom:20px;
+}
+
+.diff_service_item h3{
+	color: #fb2274;
+	margin-bottom: 15px;
+}
+
+/* Contact Us */
+.form_input{
+	margin-bottom: 15px;
+}
+
+.form_input input[type="text"]{
+	width: 200px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+}
+
+.form_input textarea{
+	width: 200px;
+	padding: 12px 20px;
+	height: 73px;
+	resize: none;
+	border: 1px solid #ccc;
+}
+
+.ourteam_wrapper .team-1.team{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_member{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.ourteam_wrapper .team_member img{
+	width: 100%;
+	display: block;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+
+
+/* footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 0;
+}
+
+.footer a{
+	color: #fff;
+}
+
+
+.arrow{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	background: #fb2274;
+	border-radius: 50%;
+}
+
+.arrow img{
+	width: 15px;
+	height:20px;
+	z-index: 1;
+}
+.navbar_items{
+align-item:right;
+
+}
+@import url("https://fonts.googleapis.com/css?family=Underdog&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+
+html, body {
+	background-color:#EEE8AA;
+	font-family: 'Varela Round', Times New Roman;
+}
+
+form, #todays-date > select, input, textarea, #dropdown {
+	padding: 5px;
+	margin-left: 5px;
+	font-size: 18px;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+li{
+	padding: 2px 2px 2px 5px;
+	display: inline-block;
+	list-style: none;
+}
+
+input {
+	margin: 5px;
+}
+
+a {
+	color: #fd6907;
+	text-decoration: none;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	width: 100%;
+	padding: 15px;
+}
+.inner{
+background:color=yellow;
+text-align:centre;
+}
+.donate_g{
+text-align:centre;
+}
+.heading h1 teal{
+text-align:centre;
+display:flex;
+}
